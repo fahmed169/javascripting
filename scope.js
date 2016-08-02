@@ -14,6 +14,11 @@ function foo() {
 
 foo(); // 4, 2, 48
 */
+
+
+// this is a modification
+
+
 var a = 1, b = 2, c = 3;
 
  (function firstFunction(){
