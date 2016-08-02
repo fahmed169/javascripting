@@ -1,0 +1,200 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'git-it' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'git-it', null ]
+7 verbose cache add spec git-it
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'git-it',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'git-it',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed git-it@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for git-it
+11 info addNameTag [ 'git-it', 'latest' ]
+12 silly mapToRegistry name git-it
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'git-it',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'git-it',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/git-it
+17 verbose addNameTag registry:https://registry.npmjs.org/git-it not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/git-it
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 10:02:32 AM
+21 verbose request id 6cdc5f4825eac264
+22 http request GET https://registry.npmjs.org/git-it
+23 http 200 https://registry.npmjs.org/git-it
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"D3PIIMLJ2ZPUEST53FY49XZ1Y"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '6809',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Tue, 02 Aug 2016 14:02:33 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-bos8225-BOS',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1470146552.974491,VS0,VE178',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"D3PIIMLJ2ZPUEST53FY49XZ1Y"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '6809',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Tue, 02 Aug 2016 14:02:33 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-bos8225-BOS',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1470146552.974491,VS0,VE178',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving git-it to /Users/fahmed/.npm/registry.npmjs.org/git-it/.cache.json
+27 verbose correctMkdir /Users/fahmed/.npm correctMkdir not in flight; initializing
+28 silly addNameTag next cb for git-it with tag latest
+29 silly addNamed git-it@1.6.9
+30 verbose addNamed "1.6.9" is a plain semver version for git-it
+31 silly mapToRegistry name git-it
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'git-it',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'git-it',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/git-it
+36 verbose addRemoteTarball https://registry.npmjs.org/git-it/-/git-it-1.6.9.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/git-it/-/git-it-1.6.9.tgz',
+37 verbose addRemoteTarball   'bc734ced83adc1c8a7d4f22298bc84578bfb71a6' ]
+38 info retry fetch attempt 1 at 10:02:33 AM
+39 info attempt registry request try #1 at 10:02:33 AM
+40 http fetch GET https://registry.npmjs.org/git-it/-/git-it-1.6.9.tgz
+41 http fetch 200 https://registry.npmjs.org/git-it/-/git-it-1.6.9.tgz
+42 silly fetchAndShaCheck shasum bc734ced83adc1c8a7d4f22298bc84578bfb71a6
+43 verbose addTmpTarball /var/folders/05/jx583nq55bx5gng7hjmz26v80p7mn0/T/npm-21034-cad99d5f/registry.npmjs.org/git-it/-/git-it-1.6.9.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for git-it@1.6.9
+45 verbose correctMkdir /Users/fahmed/.npm correctMkdir not in flight; initializing
+46 silly cache afterAdd git-it@1.6.9
+47 verbose afterAdd /Users/fahmed/.npm/git-it/1.6.9/package/package.json not in flight; writing
+48 verbose correctMkdir /Users/fahmed/.npm correctMkdir not in flight; initializing
+49 verbose afterAdd /Users/fahmed/.npm/git-it/1.6.9/package/package.json written
+50 silly install resolved [ { name: 'git-it',
+50 silly install resolved     version: '1.6.9',
+50 silly install resolved     description: 'Terminal app for learning Git and GitHub',
+50 silly install resolved     main: 'index.js',
+50 silly install resolved     bin: { 'git-it': './git-it.js' },
+50 silly install resolved     scripts:
+50 silly install resolved      { build: 'node guide/buildpages.js && node guide/buildpages.js zhtw',
+50 silly install resolved        'build-english': 'node guide/buildpages.js',
+50 silly install resolved        'build-zhtw': 'node guide/buildpages.js zhtw',
+50 silly install resolved        'copy-guide': 'cp -r ./guide ./.guide',
+50 silly install resolved        'git-co': 'git checkout gh-pages && git reset --hard origin/gh-pages',
+50 silly install resolved        'paste-guide': 'cp -r ./.guide/* .. && rm -rf ./.guide',
+50 silly install resolved        'git-stage': 'npm run copy-guide && npm run git-co && npm run paste-guide',
+50 silly install resolved        'git-commit': 'git add -A . && git commit -a -m \'gh-pages update\'',
+50 silly install resolved        'git-push': 'git push origin gh-pages --force && git checkout master',
+50 silly install resolved        deploy: 'npm run git-stage && npm run git-commit && npm run git-push' },
+50 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jlord/git-it.git' },
+50 silly install resolved     author: { name: 'Jessica Lord' },
+50 silly install resolved     license: 'BSD-2-Clause',
+50 silly install resolved     bugs: { url: 'https://github.com/jlord/git-it/issues' },
+50 silly install resolved     dependencies:
+50 silly install resolved      { 'concat-stream': '~1.2.1',
+50 silly install resolved        ecstatic: '^0.5.4',
+50 silly install resolved        'github-oauth': '0.0.4',
+50 silly install resolved        glob: '^3.2.11',
+50 silly install resolved        handlebars: '^2.0.0-alpha.4',
+50 silly install resolved        marked: '^0.3.2',
+50 silly install resolved        request: '~2.30.0',
+50 silly install resolved        'workshopper-jlord': '^0.0.6',
+50 silly install resolved        cheerio: '~0.17.0' },
+50 silly install resolved     gitHead: 'a5995175dc9db2fe53e20981d981b218c7791b0c',
+50 silly install resolved     homepage: 'https://github.com/jlord/git-it#readme',
+50 silly install resolved     _id: 'git-it@1.6.9',
+50 silly install resolved     _shasum: 'bc734ced83adc1c8a7d4f22298bc84578bfb71a6',
+50 silly install resolved     _from: 'git-it@latest',
+50 silly install resolved     _npmVersion: '2.10.1',
+50 silly install resolved     _nodeVersion: '0.12.4',
+50 silly install resolved     _npmUser: { name: 'jlord', email: 'to.jlord@gmail.com' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'bc734ced83adc1c8a7d4f22298bc84578bfb71a6',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/git-it/-/git-it-1.6.9.tgz' },
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/git-it/-/git-it-1.6.9.tgz' } ]
+51 info install git-it@1.6.9 into /usr/local/lib
+52 info installOne git-it@1.6.9
+53 verbose installOne of git-it to /usr/local/lib not in flight; installing
+54 verbose correctMkdir /Users/fahmed/.npm/_locks correctMkdir not in flight; initializing
+55 verbose lock using /Users/fahmed/.npm/_locks/git-it-50544340510ec91c.lock for /usr/local/lib/node_modules/git-it
+56 silly install write writing git-it 1.6.9 to /usr/local/lib/node_modules/git-it
+57 verbose unbuild lib/node_modules/git-it
+58 silly gentlyRm /usr/local/lib/node_modules/git-it is being purged from base /usr/local
+59 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/git-it
+60 verbose tar unpack /Users/fahmed/.npm/git-it/1.6.9/package.tgz
+61 verbose tar unpacking to /usr/local/lib/node_modules/git-it
+62 silly gentlyRm /usr/local/lib/node_modules/git-it is being purged
+63 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/git-it
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 error tar.unpack untar error /Users/fahmed/.npm/git-it/1.6.9/package.tgz
+66 verbose unlock done using /Users/fahmed/.npm/_locks/git-it-50544340510ec91c.lock for /usr/local/lib/node_modules/git-it
+67 verbose fstream_path /usr/local/lib/node_modules/git-it
+68 verbose fstream_type Directory
+69 verbose fstream_class DirWriter
+70 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/git-it'
+70 verbose stack     at Error (native)
+71 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+71 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+71 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+72 verbose cwd /Users/fahmed/javascripting
+73 error Darwin 15.5.0
+74 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "git-it"
+75 error node v4.4.7
+76 error npm  v2.15.8
+77 error path /usr/local/lib/node_modules/git-it
+78 error code EACCES
+79 error errno -13
+80 error syscall mkdir
+81 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/git-it'
+81 error     at Error (native)
+81 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/git-it']
+81 error   errno: -13,
+81 error   code: 'EACCES',
+81 error   syscall: 'mkdir',
+81 error   path: '/usr/local/lib/node_modules/git-it',
+81 error   fstream_type: 'Directory',
+81 error   fstream_path: '/usr/local/lib/node_modules/git-it',
+81 error   fstream_class: 'DirWriter',
+81 error   fstream_stack:
+81 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+81 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+81 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+82 error Please try running this command again as root/Administrator.
+83 verbose exit [ -13, true ]
+84 verbose unbuild lib/node_modules/git-it
+85 silly gentlyRm /usr/local/lib/node_modules/git-it is being purged from base /usr/local
+86 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/git-it
